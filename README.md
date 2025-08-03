@@ -157,10 +157,6 @@ curl http://localhost:8888/shipping-service/default
 
 ## ⚠️ Known Issues & Recommendations
 
-### 🔴 Critical Issues
-1. **Port Conflict**: Both Product Service and Shipping Service use port `8082`
-2. **Empty Configurations**: User Service configuration is completely empty
-3. **Security**: Database passwords are in plain text (consider encryption)
 
 ### 🟡 Recommendations
 1. **Port Assignment**:
